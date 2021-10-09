@@ -1,16 +1,16 @@
 #include<iostream>
-#include "Задание 1. ТрЁхзначное число.h"
+#include "Р—Р°РґР°РЅРёРµ 1. РўСЂРЃС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ.h"
 using namespace std;
 int main() {
 	setlocale(LC_ALL, "Rus");
-	cout << "Введите число:";
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ:";
 	int a;
 	cin >> a;
 	if ((a > 99 && a < 1000) || (a < -99 && a > -1000)) {
-		cout << "Верно";
+		cout << "Р’РµСЂРЅРѕ";
 	}
 	else { 
-	cout << "Неверно"; }
+	cout << "РќРµРІРµСЂРЅРѕ"; }
 	return(0);
 	system("pause");
 	

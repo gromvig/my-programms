@@ -5,7 +5,7 @@ int main() {
 	int A[8]{ 0,0,0,0,0,0,0,0 };
 	int a, i;
 	i = 7;
-	cout << "Ââåäèòå öåëîå ÷èñëî íå  ïğåâûøàşùåå 10000000" << endl;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ†ĞµĞ»Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ½Ğµ  Ğ¿Ñ€ĞµĞ²Ñ‹ÑˆĞ°ÑÑ‰ĞµĞµ 10000000" << endl;
 	cin >> a;
 	while (a > 0) {
 		A[i] = a % 10;
@@ -13,122 +13,122 @@ int main() {
 		a = a / 10;
 	}
 	switch (A[0]) {
-	case 1: cout << "äåñÿòü ìèëëèîíîâ"; break;
+	case 1: cout << "Ğ´ĞµÑÑÑ‚ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ²"; break;
 	}
 	switch (A[1]) {
-	case 9:cout << " äåâÿòü ìèëëèîíîâ"; break;
-	case 8:cout << " âîñåìü ìèëëèîíîâ"; break;
-	case 7:cout << " ñåìü ìèëëèîíîâ"; break;
-	case 6:cout << " øåñòü ìèëëèîíîâ"; break;
-	case 5:cout << " ïÿòü ìèëëèîíîâ"; break;
-	case 4:cout << " ÷åòûğå ìèëëèîíà"; break;
-	case 3:cout << " òğè ìèëëèîíà"; break;
-	case 2:cout << " äâà ìèëëèîíà"; break;
-	case 1:cout << " ìèëëèîí"; break;
+	case 9:cout << " Ğ´ĞµĞ²ÑÑ‚ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ²"; break;
+	case 8:cout << " Ğ²Ğ¾ÑĞµĞ¼ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ²"; break;
+	case 7:cout << " ÑĞµĞ¼ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ²"; break;
+	case 6:cout << " ÑˆĞµÑÑ‚ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ²"; break;
+	case 5:cout << " Ğ¿ÑÑ‚ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ²"; break;
+	case 4:cout << " Ñ‡ĞµÑ‚Ñ‹Ñ€Ğµ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ°"; break;
+	case 3:cout << " Ñ‚Ñ€Ğ¸ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ°"; break;
+	case 2:cout << " Ğ´Ğ²Ğ° Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ°"; break;
+	case 1:cout << " Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½"; break;
 	}
 	switch (A[2]) {
-	case 9:cout << " äåâÿòüñîò"; break;
-	case 8:cout << " âîñåìüñîò"; break;
-	case 7:cout << " ñåìüñîò"; break;
-	case 6:cout << " øåñòüñîò"; break;
-	case 5:cout << " ïÿòüñîò"; break;
-	case 4:cout << " ÷åòûğåñòà"; break;
-	case 3:cout << " òğèñòà"; break;
-	case 2:cout << " äâåñòè"; break;
-	case 1:cout << " ñòî"; break;
+	case 9:cout << " Ğ´ĞµĞ²ÑÑ‚ÑŒÑĞ¾Ñ‚"; break;
+	case 8:cout << " Ğ²Ğ¾ÑĞµĞ¼ÑŒÑĞ¾Ñ‚"; break;
+	case 7:cout << " ÑĞµĞ¼ÑŒÑĞ¾Ñ‚"; break;
+	case 6:cout << " ÑˆĞµÑÑ‚ÑŒÑĞ¾Ñ‚"; break;
+	case 5:cout << " Ğ¿ÑÑ‚ÑŒÑĞ¾Ñ‚"; break;
+	case 4:cout << " Ñ‡ĞµÑ‚Ñ‹Ñ€ĞµÑÑ‚Ğ°"; break;
+	case 3:cout << " Ñ‚Ñ€Ğ¸ÑÑ‚Ğ°"; break;
+	case 2:cout << " Ğ´Ğ²ĞµÑÑ‚Ğ¸"; break;
+	case 1:cout << " ÑÑ‚Ğ¾"; break;
 	}
 	if (A[3] == 0 && A[4] == 0 && A[2] != 0) {
-		cout << " òûñÿ÷";
+		cout << " Ñ‚Ñ‹ÑÑÑ‡";
 	}
 	switch (A[3]) {
-	case 9:cout << " äåâÿíîñòî"; break;
-	case 8:cout << " âîñåìüäåñÿò"; break;
-	case 7:cout << " ñåìüäåñÿò"; break;
-	case 6:cout << " øåñòüäåñÿò"; break;
-	case 5:cout << " ïÿòüäåñÿò"; break;
-	case 4:cout << " ñîğîê"; break;
-	case 3:cout << " òğèäöàòü"; break;
-	case 2:cout << " äâàäöàòü"; break;
+	case 9:cout << " Ğ´ĞµĞ²ÑĞ½Ğ¾ÑÑ‚Ğ¾"; break;
+	case 8:cout << " Ğ²Ğ¾ÑĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚"; break;
+	case 7:cout << " ÑĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚"; break;
+	case 6:cout << " ÑˆĞµÑÑ‚ÑŒĞ´ĞµÑÑÑ‚"; break;
+	case 5:cout << " Ğ¿ÑÑ‚ÑŒĞ´ĞµÑÑÑ‚"; break;
+	case 4:cout << " ÑĞ¾Ñ€Ğ¾Ğº"; break;
+	case 3:cout << " Ñ‚Ñ€Ğ¸Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+	case 2:cout << " Ğ´Ğ²Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
 	case 1:
 		switch (A[4]) {
-		case 9: cout << " äåâÿòíàäöàòü òûñÿ÷"; break;
-		case 8: cout << " âîñåìíàäöàòü òûñÿ÷"; break;
-		case 7: cout << " ñåìíàäöàòü òûñÿ÷"; break;
-		case 6: cout << " øåñòíàäöàòü òûñÿ÷"; break;
-		case 5: cout << " ïÿòíàäöàòü òûñÿ÷"; break;
-		case 4: cout << " ÷åòûğíàäöàòü òûñÿ÷"; break;
-		case 3: cout << " òğèíàäöàòü òûñÿ÷"; break;
-		case 2: cout << " äâåíàäöàòü òûñÿ÷"; break;
-		case 1: cout << " îäèííàäöàòü òûñÿ÷"; break;
-		case 0: cout << " äåñÿòü òûñÿ÷"; break;
+		case 9: cout << " Ğ´ĞµĞ²ÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 8: cout << " Ğ²Ğ¾ÑĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 7: cout << " ÑĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 6: cout << " ÑˆĞµÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 5: cout << " Ğ¿ÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 4: cout << " Ñ‡ĞµÑ‚Ñ‹Ñ€Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 3: cout << " Ñ‚Ñ€Ğ¸Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 2: cout << " Ğ´Ğ²ĞµĞ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 1: cout << " Ğ¾Ğ´Ğ¸Ğ½Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 0: cout << " Ğ´ĞµÑÑÑ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
 		}
 	}
 	if (A[4] == 0 && A[3] != 1 && A[3] != 0) {
-		cout << " òûñÿ÷";
+		cout << " Ñ‚Ñ‹ÑÑÑ‡";
 	}
 
 	if (A[3] != 1) {
 		switch (A[4]) {
-		case 9:cout << " äåâÿòü òûñÿ÷"; break;
-		case 8:cout << " âîñåìü òûñÿ÷"; break;
-		case 7:cout << " ñåìü òûñÿ÷"; break;
-		case 6:cout << " øåñòü òûñÿ÷"; break;
-		case 5:cout << " ïÿòü òûñÿ÷"; break;
-		case 4:cout << " ÷åòûğå òûñÿ÷è"; break;
-		case 3:cout << " òğè òûñÿ÷è"; break;
-		case 2:cout << " äâå òûñÿ÷è"; break;
-		case 1:cout << " îäíà òûñÿ÷à"; break;
+		case 9:cout << " Ğ´ĞµĞ²ÑÑ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 8:cout << " Ğ²Ğ¾ÑĞµĞ¼ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 7:cout << " ÑĞµĞ¼ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 6:cout << " ÑˆĞµÑÑ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 5:cout << " Ğ¿ÑÑ‚ÑŒ Ñ‚Ñ‹ÑÑÑ‡"; break;
+		case 4:cout << " Ñ‡ĞµÑ‚Ñ‹Ñ€Ğµ Ñ‚Ñ‹ÑÑÑ‡Ğ¸"; break;
+		case 3:cout << " Ñ‚Ñ€Ğ¸ Ñ‚Ñ‹ÑÑÑ‡Ğ¸"; break;
+		case 2:cout << " Ğ´Ğ²Ğµ Ñ‚Ñ‹ÑÑÑ‡Ğ¸"; break;
+		case 1:cout << " Ğ¾Ğ´Ğ½Ğ° Ñ‚Ñ‹ÑÑÑ‡Ğ°"; break;
 		}
 	}
 	switch (A[5]) {
-	case 9:cout << " äåâÿòüñîò"; break;
-	case 8:cout << " âîñåìüñîò"; break;
-	case 7:cout << " ñåìüñîò"; break;
-	case 6:cout << " øåñòüñîò"; break;
-	case 5:cout << " ïÿòüñîò"; break;
-	case 4:cout << " ÷åòûğåñòà"; break;
-	case 3:cout << " òğèñòà"; break;
-	case 2:cout << " äâåñòè"; break;
-	case 1:cout << " ñòî"; break;
+	case 9:cout << " Ğ´ĞµĞ²ÑÑ‚ÑŒÑĞ¾Ñ‚"; break;
+	case 8:cout << " Ğ²Ğ¾ÑĞµĞ¼ÑŒÑĞ¾Ñ‚"; break;
+	case 7:cout << " ÑĞµĞ¼ÑŒÑĞ¾Ñ‚"; break;
+	case 6:cout << " ÑˆĞµÑÑ‚ÑŒÑĞ¾Ñ‚"; break;
+	case 5:cout << " Ğ¿ÑÑ‚ÑŒÑĞ¾Ñ‚"; break;
+	case 4:cout << " Ñ‡ĞµÑ‚Ñ‹Ñ€ĞµÑÑ‚Ğ°"; break;
+	case 3:cout << " Ñ‚Ñ€Ğ¸ÑÑ‚Ğ°"; break;
+	case 2:cout << " Ğ´Ğ²ĞµÑÑ‚Ğ¸"; break;
+	case 1:cout << " ÑÑ‚Ğ¾"; break;
 	}
 	switch (A[6]) {
-	case 9:cout << " äåâÿíîñòî"; break;
-	case 8:cout << " âîñåìüäåñÿò"; break;
-	case 7:cout << " ñåìüäåñÿò"; break;
-	case 6:cout << " øåñòüäåñÿò"; break;
-	case 5:cout << " ïÿòüäåñÿò"; break;
-	case 4:cout << " ñîğîê"; break;
-	case 3:cout << " òğèäöàòü"; break;
-	case 2:cout << " äâàäöàòü"; break;
+	case 9:cout << " Ğ´ĞµĞ²ÑĞ½Ğ¾ÑÑ‚Ğ¾"; break;
+	case 8:cout << " Ğ²Ğ¾ÑĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚"; break;
+	case 7:cout << " ÑĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚"; break;
+	case 6:cout << " ÑˆĞµÑÑ‚ÑŒĞ´ĞµÑÑÑ‚"; break;
+	case 5:cout << " Ğ¿ÑÑ‚ÑŒĞ´ĞµÑÑÑ‚"; break;
+	case 4:cout << " ÑĞ¾Ñ€Ğ¾Ğº"; break;
+	case 3:cout << " Ñ‚Ñ€Ğ¸Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+	case 2:cout << " Ğ´Ğ²Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
 	case 1:
 		switch (A[7]) {
-		case 9: cout << " äåâÿòíàäöàòü"; break;
-		case 8: cout << " âîñåìíàäöàòü"; break;
-		case 7: cout << " ñåìíàäöàòü"; break;
-		case 6: cout << " øåñòíàäöàòü"; break;
-		case 5: cout << " ïÿòíàäöàòü"; break;
-		case 4: cout << " ÷åòûğíàäöàòü"; break;
-		case 3: cout << " òğèíàäöàòü"; break;
-		case 2: cout << " äâåíàäöàòü"; break;
-		case 1: cout << " îäèííàäöàòü"; break;
-		case 0: cout << " äåñÿòü"; break;
+		case 9: cout << " Ğ´ĞµĞ²ÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+		case 8: cout << " Ğ²Ğ¾ÑĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+		case 7: cout << " ÑĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+		case 6: cout << " ÑˆĞµÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+		case 5: cout << " Ğ¿ÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+		case 4: cout << " Ñ‡ĞµÑ‚Ñ‹Ñ€Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+		case 3: cout << " Ñ‚Ñ€Ğ¸Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+		case 2: cout << " Ğ´Ğ²ĞµĞ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+		case 1: cout << " Ğ¾Ğ´Ğ¸Ğ½Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"; break;
+		case 0: cout << " Ğ´ĞµÑÑÑ‚ÑŒ"; break;
 		}
 	}
 	if (A[6] != 1) {
 		switch (A[7]) {
-		case 9:cout << " äåâÿòü"; break;
-		case 8:cout << " âîñåìü"; break;
-		case 7:cout << " ñåìü"; break;
-		case 6:cout << " øåñòü"; break;
-		case 5:cout << " ïÿòü"; break;
-		case 4:cout << " ÷åòûğå"; break;
-		case 3:cout << " òğè"; break;
-		case 2:cout << " äâà"; break;
-		case 1:cout << " îäèí"; break;
+		case 9:cout << " Ğ´ĞµĞ²ÑÑ‚ÑŒ"; break;
+		case 8:cout << " Ğ²Ğ¾ÑĞµĞ¼ÑŒ"; break;
+		case 7:cout << " ÑĞµĞ¼ÑŒ"; break;
+		case 6:cout << " ÑˆĞµÑÑ‚ÑŒ"; break;
+		case 5:cout << " Ğ¿ÑÑ‚ÑŒ"; break;
+		case 4:cout << " Ñ‡ĞµÑ‚Ñ‹Ñ€Ğµ"; break;
+		case 3:cout << " Ñ‚Ñ€Ğ¸"; break;
+		case 2:cout << " Ğ´Ğ²Ğ°"; break;
+		case 1:cout << " Ğ¾Ğ´Ğ¸Ğ½"; break;
 		}
 	}
 	if (A[0] == 0 && A[1] == 0 && A[2] == 0 && A[3] == 0 && A[4] == 0 && A[5] == 0 && A[6] == 0 && A[7] == 0) {
-		cout << "íîëü";
+		cout << "Ğ½Ğ¾Ğ»ÑŒ";
 	}
 	return(0);
 	system("pause");
